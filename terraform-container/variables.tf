@@ -7,13 +7,13 @@ variable "environment" {
 variable "location_long" {
   description = "The location where to place resources"
   type        = string
-  default     = "west europe"
+  default     = "north europe"
 }
 
 variable "location" {
   description = "The location short name"
   type        = string
-  default     = "we"
+  default     = "ne"
 }
 
 variable "name" {
